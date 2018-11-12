@@ -10,6 +10,10 @@
     overflow: hidden;
 }
 
+h1{
+	background-image: url(../img/sobre-background.jpg);
+}
+
 .perfil img {
 	position: absolute;
 	bottom: 0;
