@@ -11,8 +11,9 @@ body {
 }
 
 .container {
-	max-width: 700px;
-	margin: 0 auto;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header {
@@ -23,4 +24,9 @@ body {
 .header-image {
   max-width: 250px;
   border-radius: 50%;
+}
+
+.header-subtitle {
+  font-size: medium;
+  color: #505050;
 }
