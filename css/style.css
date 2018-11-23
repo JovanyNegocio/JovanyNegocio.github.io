@@ -20,7 +20,7 @@ body {
   text-align: center; 
 }
 
-header-image {
+.header-image {
   max-width: 250px;
   border-radius: 50%;
 }
