@@ -27,6 +27,10 @@ body {
   border-radius: 50%;
 }
 
+.header-title {
+  color: #2c2c2c;
+}
+
 .header-subtitle {
   font-size: medium;
   color: #505050;
