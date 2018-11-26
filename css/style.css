@@ -1,30 +1,45 @@
 
-.perfil {
-	background-color: #aaa;
-	border-radius: 50%;
-    max-width:250px;
-    max-height:200px;
-    width: auto;
-    height: auto;
-    position: relative;
-    overflow: hidden;
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
-h1{
-	background-image: url(../img/sobre-background.jpg);
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
-.perfil img {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
-p {
-	font-family: sans-serif;
-
+.header {
+  margin-top: 4rem;
+  text-align: center; 
 }
 
-h1 {
-	font-family: sans-serif;
+.header-image {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+.header-title {
+  color: #2c2c2c;
+  font-size: 1.3em;
+}
+
+.header-subtitle {
+  font-size: medium;
+  color: #505050;
+}
+
+@media (min-width: 768px) {
+  .header-title {
+    font-size: 2em;
+  }
 }
