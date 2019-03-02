@@ -23,8 +23,8 @@ body {
 }
 
 .header-image {
-  width: 100%;
-  max-width: 100px;
+  width: 200%;
+  max-width: 200px;
   border-radius: 50%;
 }
 
