@@ -114,6 +114,7 @@ body {
     border-radius: 50%;
     text-align: center;
 
+
 }
 
 
@@ -126,11 +127,12 @@ body {
     height: 40px;
     border-radius: 50%;
     box-shadow: 0 8px 16px 0 rgba(237, 76, 103,0.3);
-    transition: color 0.25s linear;
+    transition: 0.25s linear;
 }
 
 .link-social li a:hover{
-    color: #B53471;
+  transform: translate(-6px, -5px);
+    background-color: #ED4C67;
 }
 
 .footer{
