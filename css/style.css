@@ -3,12 +3,14 @@
 }
 
 body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F1F1F1;
+    
 }
 
 .hero-img{
-    background: url(../img/js.jpg) no-repeat center;
+    background: url(../img/jovany.jpg) no-repeat center;
     background-size: cover;
     height: 500px;
     position: relative;
@@ -39,37 +41,104 @@ body {
 .hero-btn:hover{
     background-color: #ED4C67;
 }
-/*
-.container {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 0 15px;
+
+
+
+.container{
+     margin: 6px 0;
 }
 
-.header {
-  margin-top: 4;
-  text-align: center; 
+.col-70{
+    width: 70%;
+    float: left;
+   
+    
+}
+.col-30{
+    width: 30%;
+    float: left;
+}
+.row{
+    padding: 7px  6px;
 }
 
-.header-image {
-  width: 200%;
-  max-width: 200px;
-  border-radius: 100%;
+.clearfix::after{
+    content: " ";
+    clear: both;
+    display: table;
+}
+.card{
+    background-color: #fff;
+    padding: 12px;
+}
+.shadow{
+    box-shadow: 0 0.5px 3px 0 rgba(0,0,0,0.360);
 }
 
-.header-title {
-  color: #2c2c2c;
-  font-size: 1.3em;
+.skills{
+    margin-bottom: 16px;
+}
+.skills span{
+    background-color: dimgrey;
+    border-radius: 43px;
+    padding: 4px 8px;
+    font-size: 14px;
+    color: #fff;
+     box-shadow: 2px 4px 8px 2px rgba(237, 76, 103,0.1);
 }
 
-.header-subtitle {
-  font-size: medium;
-  color: #505050;
+/*.about-me img{
+    width: 100%;
+    background-size: contain;
+    border-radius: 5px;
+    margin-bottom: 5px
+}*/
+
+.about-me-text{
+    line-height: 1.5;
+    margin: 0;
 }
 
-@media (min-width: 768px) {
-  .header-title {
-    font-size: 2em;
-  }
+.link-social{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
 }
-*/
+.link-social li{
+    float: left;
+}
+.link-social li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 25px;
+}
+
+.footer{
+    margin-top: 30px;
+   
+}
+.card-footer{
+    padding: 20px;
+    color: #fff;
+    background-color: #B53471;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(237, 76, 103,0.6);
+}
+
+.dev{
+    font-size: 14px;
+    color: #ccc;
+}
+.dev a{
+    text-decoration: none;
+    color: #ccc;
+    font-weight: bold;
+}
+.dev a:hover{
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+
+@media screen and (min-width: 768px) {
+  
+}
