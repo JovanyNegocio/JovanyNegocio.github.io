@@ -100,18 +100,37 @@ body {
 }
 
 .link-social{
+    font-size: 25px;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: auto;
 }
+
+
 .link-social li{
-    float: left;
-}
-.link-social li a{
-    text-decoration: none;
     display: inline-block;
-    padding: 12px 25px;
+    margin: 8px;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+
+.link-social li a{
+    padding: 5px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0.2);
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 8px 16px 0 rgba(237, 76, 103,0.3);
+    transition: color 0.25s linear;
+}
+
+.link-social li a:hover{
+    color: #B53471;
 }
 
 .footer{
