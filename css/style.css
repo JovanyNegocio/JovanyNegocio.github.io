@@ -1,3 +1,5 @@
+/*-------Setup Basic----------*/
+
 *{
     box-sizing: border-box;
 }
@@ -9,6 +11,8 @@ body {
     color: #444;
     
 }
+
+/*-------Background Hero----------*/
 
 .hero-img{
     background: url(../img/jovany.jpg) no-repeat center;
@@ -44,7 +48,7 @@ body {
 }
 
 
-
+/*-------Def 2 Column----------*/
 .container{
      margin: 6px 0;
 }
@@ -62,12 +66,15 @@ body {
 .row{
     padding: 7px  6px;
 }
+/*-------For fix problem with float----------*/
 
 .clearfix::after{
     content: " ";
     clear: both;
     display: table;
 }
+
+/*-------Style card----------*/
 .card{
     background-color: #fff;
     padding: 12px;
@@ -75,6 +82,8 @@ body {
 .shadow{
     box-shadow: 0 0.5px 3px 0 rgba(0,0,0,0.360);
 }
+
+/*-------Section Skills----------*/
 
 .skills{
     margin-bottom: 18px;
@@ -88,12 +97,16 @@ body {
     box-shadow: 2px 4px 8px 2px rgba(237, 76, 103,0.1);
 }
 
+/*-------For set img in About me----------*/
+
 /*.about-me img{
     width: 100%;
     background-size: contain;
     border-radius: 5px;
     margin-bottom: 5px
 }*/
+
+/*-------Style Text----------*/
 
 .about-me-text{
     line-height: 1.5;
@@ -104,6 +117,7 @@ body {
      text-align: justify;
 }
 
+/*-------iCON----------*/
 
 .icon-big{
     font-size: 45px;
@@ -111,6 +125,8 @@ body {
     color: #fff;
 
 }
+
+/*-------Section Work----------*/
 
 .work{
     padding: 8px;
@@ -156,6 +172,9 @@ body {
     line-height: 1.4;
 }
 
+
+/*-------Social Media----------*/
+
 .link-social{
     font-size: 25px;
     list-style-type: none;
@@ -190,6 +209,8 @@ body {
 }
 
 
+/*-------Section Contact----------*/
+
 .contact{
     margin: 0;
     display: block; 
@@ -203,6 +224,8 @@ body {
     text-align: center;
 }
 
+
+/*-------FOOTER----------*/
 
 .footer{
     margin-top: 30px;
@@ -228,6 +251,9 @@ body {
 .dev a:hover{
     text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
 }
+
+
+/*-------Media Query----------*/
 
 @media screen and (max-width: 900px){
     .link-work, .works-btn, .col-contact{
