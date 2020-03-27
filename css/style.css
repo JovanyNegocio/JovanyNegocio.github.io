@@ -120,12 +120,13 @@ body {
     border: 2px solid #B53471;
     color: #B53471;
     background-color: #fff;
+    box-shadow: 0 2px 6px 0 rgba(237, 76, 103,0.6);
 }
 .works-btn:hover{
     color: #fff;
     background-color: #ED4C67;
     border-color: #ED4C68;
-    box-shadow: 0 2px 6px 0 rgba(237, 76, 103,0.6);
+    
 }
 
 .link-work{
@@ -141,10 +142,11 @@ body {
     margin-left: 12px;
     border-radius: 8px;
     border-bottom: 4px solid #B53471;
+    border-top: 4px solid #B53471;
     transition: 0.2s linear;
 }
 .link-work:hover{
-     box-shadow: 0 6px 12px 0 rgba(237, 76, 103,0.3);
+     box-shadow: 0 3px 6px 0 rgba(237, 76, 103,0.7);
 }
 
 
@@ -187,6 +189,21 @@ body {
     background-color: #ED4C67;
 }
 
+
+.contact{
+    margin: 0;
+    display: block; 
+    margin-bottom: 20px;
+}
+
+.col-contact{
+    margin: auto;
+    width: 32.8%;
+    display: inline-block;
+    text-align: center;
+}
+
+
 .footer{
     margin-top: 30px;
    
@@ -213,8 +230,8 @@ body {
 }
 
 @media screen and (max-width: 900px){
-    .link-work, .works-btn{
-        margin: 8px;
+    .link-work, .works-btn, .col-contact{
+        margin: 10px 0;
         width: 100%;    
     }
 }
