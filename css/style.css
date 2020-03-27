@@ -279,7 +279,9 @@ body {
 @media screen and (max-width: 848px){
      .link-work{
         width: 100%;
-        margin: 12px;
+        margin: 0;
+        margin-bottom: 16px;
+        
     }
 }
 
