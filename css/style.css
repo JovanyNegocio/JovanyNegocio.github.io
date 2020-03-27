@@ -132,6 +132,9 @@ body {
     padding: 8px;
     margin-bottom: 25px;
 }
+.work-p{
+    padding: 12px;
+}
 .works-btn{
     border: 2px solid #B53471;
     color: #B53471;
