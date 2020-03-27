@@ -50,7 +50,7 @@ body {
 
 /*-------Def 2 Column----------*/
 .container{
-     margin: 6px 0;
+     margin: 8px;
 }
 
 .col-70{
@@ -184,6 +184,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: auto;
+    padding-bottom: 18px;
 }
 
 
