@@ -50,7 +50,7 @@ body {
 
 /*-------Def 2 Column----------*/
 .container{
-     margin: 8px;
+    margin: 20px 60px;
 }
 
 .col-70{
@@ -149,11 +149,12 @@ body {
 }
 
 .link-work{
-    width: 30.5%;
+    width: 30.8%;
     float: left;
     border: 1px solid #ddd;
     box-shadow: 2px 8px 16px 3px rgba(0,0,0,0.2);
     padding: 12px 0;
+    font-size: 14px;
     text-align: center;
     text-decoration: none;
     color: #444;
@@ -223,7 +224,7 @@ body {
 
 .col-contact{
     margin: auto;
-    width: 32.8%;
+    width: 31.999%;
     display: inline-block;
     text-align: center;
 }
@@ -259,10 +260,26 @@ body {
 
 /*-------Media Query----------*/
 
-@media screen and (max-width: 900px){
-    .link-work, .works-btn, .col-contact{
+@media screen and (max-width: 920px){
+     .works-btn, .col-contact, .container{
         margin: 10px 0;
         width: 100%;    
+    }
+    .link-work{
+        width: 48%;
+        margin: 8px 5px;
+        font-size: 16px;
+    }
+    .work-p{
+        padding: 0;
+        margin: 0 20px
+    }
+}
+
+@media screen and (max-width: 848px){
+     .link-work{
+        width: 100%;
+        margin: 12px;
     }
 }
 
