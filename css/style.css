@@ -47,6 +47,41 @@ body {
     background-color: #ED4C67;
 }
 
+/*----------TOP NAV--------------*/
+.topnav{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.360);
+	border: 1px solid rgba(0,0,0,0.360);
+	border-radius: 6px 6px 0 0;
+	position: sticky;
+	top: 0;
+    background-color: #222;
+    margin: 0 60px;
+}
+.topnav ul{
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+	list-style-type: none;
+}
+.topnav li{
+	float: left;
+}
+
+.topnav .right{
+	float: right;
+}
+.topnav li a{
+	display: inline-block;
+	padding: 14px 16px;
+	transition: all 0.3s ease;
+	color: #fff;
+	text-decoration: none;
+}
+.topnav li a:hover{
+	background-color: #f1f1f1;
+	color: #111;
+}
+
 
 /*-------Def 2 Column----------*/
 .container{
