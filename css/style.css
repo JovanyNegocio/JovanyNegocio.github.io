@@ -134,6 +134,15 @@ body {
     box-shadow: 2px 4px 8px 2px rgba(237, 76, 103,0.1);
 }
 
+
+
+/*--------Image POst------*/
+.imgpost img{
+    max-width: 100%;
+    height: auto;
+}
+
+
 /*-------For set img in About me----------*/
 
 /*.about-me img{
