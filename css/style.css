@@ -61,10 +61,12 @@ body {
 	padding: 0;
 	margin: 0;
 	overflow: auto;
-	list-style-type: none;
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
 }
 .topnav li{
-	float: left;
+	display: inline-block; 
 }
 
 .topnav .right{
