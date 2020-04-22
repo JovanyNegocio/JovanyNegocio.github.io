@@ -163,6 +163,13 @@ body {
      text-align: justify;
 }
 
+.title-post{
+    color: #666;
+}
+.title-post:hover{
+    text-decoration: none;
+}
+
 /*-------iCON----------*/
 
 .icon-big{
