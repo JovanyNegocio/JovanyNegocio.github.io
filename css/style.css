@@ -192,7 +192,7 @@ body {
     border: 2px solid #B53471;
     color: #B53471;
     background-color: #fff;
-    box-shadow: 0 2px 6px 0 rgba(237, 76, 103,0.6);
+    box-shadow: 0 1px 2px 0 rgba(237, 76, 103,0.2);
 }
 .works-btn:hover{
     color: #fff;
@@ -317,6 +317,10 @@ body {
      .works-btn, .col-contact, .container{
         margin: 10px 0;
         width: 100%;    
+    }
+    .topnav{
+        width: 100%;
+        margin: auto;
     }
     .link-work{
         width: 48%;
