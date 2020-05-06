@@ -223,8 +223,6 @@ body {
     margin: 0;
     margin-left: 12px;
     border-radius: 8px;
-    border-bottom: 4px solid #B53471;
-    border-top: 4px solid #B53471;
     transition: 0.2s linear;
 }
 .link-work:hover{
