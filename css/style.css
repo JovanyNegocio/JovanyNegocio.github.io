@@ -23,6 +23,17 @@ body {
     z-index:1; 
 }
 
+.content-modal{
+    position: relative;
+    background-color: #fff;
+    max-width: 400px;
+    width: 100%;
+    margin: 10% auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
 /*----------TOP NAV--------------*/
 .topnav{
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.360);
