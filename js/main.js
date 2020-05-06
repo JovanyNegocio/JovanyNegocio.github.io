@@ -12,5 +12,14 @@ btnHire.addEventListener('click', () => {
     //console.log(contentModal.getAttribute('class'))
     //contentModal.style.display = 'block'
 
+})
 
+closeModal.addEventListener('click', () =>{
+    modal.classList.remove('show-modal')
+    contentModal.classList.remove('show-modal')
+})
+
+modal.addEventListener('click', () =>{
+    modal.classList.remove('show-modal')
+    contentModal.classList.remove('show-modal')
 })
