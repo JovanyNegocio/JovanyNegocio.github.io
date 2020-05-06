@@ -33,6 +33,13 @@ body {
     text-align: center;
     border-radius: 5px;
 }
+.close-modal{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-weight: bold; 
+    cursor: pointer; 
+}
 
 /*----------TOP NAV--------------*/
 .topnav{
