@@ -32,7 +32,7 @@ body {
     max-width: 400px;
     width: 100%;
     margin: 10% auto;
-    padding: 20px;
+    padding: 20px 20px 40px 20px;
     text-align: center;
     border-radius: 5px;
     z-index: 1;
@@ -108,8 +108,10 @@ body {
     text-shadow: 2px 2px 4px rgba(0,0,0.2);
 
 }
-.hero-btn, .works-btn{
+.hero-btn, .works-btn, .btn-modal{
     padding: 12px 30px;
+    text-decoration: none;
+    outline: none;
     border: none;
     border-radius: 4px;
     font-size: 16px;
@@ -120,7 +122,8 @@ body {
     transition: 0.25s linear;
     
 }
-.hero-btn:hover{
+.hero-btn:hover,
+.btn-modal:hover{
     background-color: #ED4C67;
 }
 
